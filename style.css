@@ -1,0 +1,71 @@
+
+html         {
+            background-color: black;            
+            }
+
+            
+/* image logo*/
+.object-1   {
+            position: absolute;
+            top: 80px; left: 100px;
+            }
+
+/* Menu */
+.object-2   { 
+            position: absolute;
+            top: 190px; left: 415px;
+            font-size: 0.58cm;
+            line-height: 22px;
+            color:black;            
+            }
+.links a
+            {
+            text-decoration: none;  
+            font-family: Verdana, Geneva, Tahoma, sans-serif;  
+            }
+
+.info       {
+            background-color: pink;
+            position: absolute;
+            left: 770px;
+            top: 20px;
+            height: 560px;
+            width: 400px;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            }
+
+
+
+/* Preview */
+
+.grid-container {
+    display: grid;
+    background-color: pink;
+    position: absolute;
+    left: 770px;
+    top: 20px;
+    height: 560px;
+    width: 400px;
+    padding: 20px;
+    /* grid-gap:1px; */
+    grid-template-columns: 160px 160px;
+    grid-template-rows: 200px 200px;
+            }           
+
+/* image preview */
+.object-4   {
+            position: fixed;
+            left: 1130px; top: 620px; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            color:white;
+            }
+
+.rect       {
+            position: absolute;
+            top: 585px;
+            left: 1125px;
+            }
