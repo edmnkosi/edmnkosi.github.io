@@ -71,9 +71,9 @@ html         {
     display: grid;
 
     background-color: pink;
-position: relative;
+position: absolute;
     left: 70px;
-    top: 600px;
+    top: 800px;
     height: 560px;
     width: 400px;
     padding: 20px;
