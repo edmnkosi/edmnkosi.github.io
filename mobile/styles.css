@@ -44,7 +44,7 @@ html         {
 
 .info       {
 
-            background-color: aqua;
+            background-color: #f0f8ff;
 
             position: absolute;
 
@@ -70,7 +70,7 @@ html         {
 
     display: grid;
 
-    background-color: aqua;
+    background-color: #f0f8ff;
 position: absolute;
     left: 100px;
     top: 700px;
