@@ -40,7 +40,15 @@ html         {
 
             font-family: Verdana, Geneva, Tahoma, sans-serif;  
             }           
+.win { position: absolute;
+
+    left: 100px;
+
+    top: 700px;
+
 }
+
+
 
 
 .info       {
