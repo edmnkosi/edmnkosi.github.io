@@ -43,7 +43,7 @@ html         {
             }           
 .win { position: absolute; z-index: 3;
 
-    left: 10px;
+    left: 30px;
 
     top: 630px;
 
@@ -62,7 +62,7 @@ html         {
 
             top: 720px;
 
-            height: 620px;
+            height: 580px;
 
             width: 460px;
 
