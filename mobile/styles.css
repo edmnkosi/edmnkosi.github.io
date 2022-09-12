@@ -40,7 +40,7 @@ html         {
 
             font-family: Verdana, Geneva, Tahoma, sans-serif;  
             }           
-.win { position: absolute;
+.win { position: absolute; z-index: 1;
 
     left: 100px;
 
@@ -55,7 +55,7 @@ html         {
 
             background-color: #f0f8ff;
 
-            position: absolute;
+            position: absolute; z-index:2;
 
             left: 100px;
 
