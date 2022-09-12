@@ -39,8 +39,9 @@ html         {
             text-decoration: none;  
 
             font-family: Verdana, Geneva, Tahoma, sans-serif;  
+            }           
+}
 
-            }
 
 .info       {
 
@@ -112,10 +113,5 @@ position: absolute;
             }
 
 
-            
-.win { position: absolute;
-    left: 100px;
-    top: 700px;
-}
-
+           
             
