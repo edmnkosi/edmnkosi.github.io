@@ -1,6 +1,6 @@
 html         {
 
-            background-color: white;            
+            background-color: #f0f8ff;            
 
             }
 
@@ -43,7 +43,7 @@ html         {
             }           
 .win { position: absolute; z-index: 3;
 
-    left: 30px;
+    left: 18px;
 
     top: 630px;
 
