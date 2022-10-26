@@ -1,62 +1,110 @@
 
 html         {
-            background-color: black;            
+            background-color: rgb(62, 70, 60);            
             }
 
             
 /* image logo*/
 .object-1   {
             position: absolute;
-            top: 80px; left: 100px;
+            top: 80px; left: 70px;
             }
 
 /* Menu */
 .object-2   { 
+            
             position: absolute;
             top: 190px; left: 415px;
             font-size: 0.58cm;
             line-height: 22px;
-            color:black;            
+            color:rgb(255, 255, 255);            
             }
 .links a
             {
+            
             text-decoration: none;  
             font-family: Verdana, Geneva, Tahoma, sans-serif;  
             }
 
 .info       {
-            background-color: white;
+            background-color: rgb(143, 126, 139);
+            color: antiquewhite;
             position: absolute;
             left: 770px;
-            top: 20px;
-            height: 560px;
-            width: 400px;
+            top: 80px;
+            height: 400px;
+            width: 450px;
             padding: 20px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 15px;
             }
 
-
+.mail       {
+            position: absolute;
+            left: 90px;
+            top: 385px;
+            }
+.lnk        {
+            position: absolute;
+            left: 20px;
+            top: 385px;
+            }
 
 /* Preview */
 
 .grid-container {
+    z-index: 0;
     display: grid;
-    background-color: white;
     position: absolute;
-    left: 740px;
-    top: 20px;
-    height: 560px;
-    width: 400px;
-    padding: 20px;
+    left: 680px;
+    top: 65px;
+    height: 500px;
+    width: 540px;
+    padding: 10px;
+    background-color: rgba(92, 94, 91, 0.521);
     /* grid-gap:1px; */
-    grid-template-columns: 160px 160px;
-    grid-template-rows: 200px 200px;
-            }           
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 250px 200px 200px;
+            }  
+            
+            
+/* hoVRRRR */
+
+
+.thumbnail
+    {
+    position: absolute;
+    z-index: 1;
+    }
+    
+.thumbnail:hover
+    {
+    z-index: 1;
+    }
+    
+.thumbnail span
+        {
+        position: absolute;
+        visibility: hidden;
+        
+        }
+
+.thumbnail span img
+            {
+            width: 250px;
+            }
+    
+.thumbnail:hover span
+    { 
+    visibility: visible;
+    top: -10px;
+    left: -100px; /*position where enlarged image should offset horizontally */
+    }
+    
 
 /* image preview */
 .object-4   {
-            position: fixed;
+            position: absolute;
             left: 1130px; top: 620px; 
             font-family: Arial, Helvetica, sans-serif;
             font-size: 12px;
@@ -64,8 +112,3 @@ html         {
             
             }
 
-.rect       {
-            position: absolute;
-            top: 585px;
-            left: 1125px;
-            }
